@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Among Us</title>
+    <style>
+      #gameArea {
+        border: none;
+      }
+
+      body {
+        height: 100vh;
+        text-align: center;
+        overflow: hidden;
+        background: black;
+        
+      }
+      h1 {
+        font-family: Comic Sans MS;
+      }
+    </style>
+  </head>
+  <body>
+      <button onclick="color='Green'">Green</button>
+      <button onclick="color='Blue'">Blue</button>
+      <button onclick="color='Pink'">Pink</button>
+      <button onclick="color='Red'">Red</button>
+      <button onclick="color='Black'">Black</button>
+      <button onclick="color='Lime'">Lime</button>
+      <button onclick="color='Cyan'">Cyan</button>
+      <button onclick="color='Brown'">Brown</button>
+      <button onclick="color='Purple'">Purple</button>
+      <button onclick="color='White'">White</button>
+      <button onclick="color='Yellow'">Yellow</button>
+      <button onclick="color='Orange'">Orange</button>
+      <canvas id="gameArea" width="680" height="580"></canvas>
+      <img id="img" width="680" height="580" src="shiplobby.jpeg" hidden="true">
+    <script src="index.js"></script>
+  </body>
+</html>
