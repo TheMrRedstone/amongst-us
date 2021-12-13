@@ -1,10 +1,10 @@
 const canvas = document.getElementById("gameArea");
 const ctx = canvas.getContext("2d");
 
-let x = 100;
-let y = 100;
-let radius = 50;
-let speed = 10;
+let x = 350;
+let y = 300;
+let radius = 20;
+let speed = 2.5;
 
 let upPressed = false;
 let downPressed = false;
