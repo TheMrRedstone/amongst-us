@@ -12,6 +12,9 @@ let leftPressed = false;
 let rightPressed = false;
 
 var color = "red"
+var Hat = "none"
+var FaceHat = "none"
+var hatdiv = document.createElement("div");
 
 function drawGame() {
   requestAnimationFrame(drawGame);
@@ -61,6 +64,7 @@ function drawGreenBlob() {
   ctx.drawImage(img, 0, 0, 680, 580);
   if (upPressed) {
     ctx.fillStyle = color;
+    
   }
   if (downPressed) {
     ctx.fillStyle = color;
